@@ -1,0 +1,94 @@
+/* Main container for the weather component */
+.weather {
+    place-self: center; /* Centers the weather component in its container */
+    padding: 40px; /* Adds padding around the component */
+    border-radius: 10px; /* Rounds the corners of the component */
+    background-image: linear-gradient(45deg, #2f4680, #500ae2); /* Adds a gradient background */
+    display: flex; /* Enables flexbox layout for the component */
+    flex-direction: column; /* Aligns children in a vertical column */
+    align-items: center; /* Centers children horizontally */
+}
+
+/* Styles for the search bar container */
+.search-bar {
+    display: flex; /* Enables flexbox layout for the search bar */
+    align-items: center; /* Aligns search bar items vertically centered */
+    gap: 20px;   /* Adds space between the input field and the search icon */
+}
+
+/* Styles for the search input field */
+.search-bar input {
+    height: 50px; /* Sets the height of the input field */
+    width: 300px; /* Sets the width of the input field */
+    border: none; /* Removes the default border */
+    outline: none; /* Removes the default outline on focus */
+    border-radius: 40px; /* Rounds the corners of the input field */
+    padding-left: 25px; /* Adds padding to the left for the text inside the input */
+    color: #626262; /* Sets the text color inside the input field */
+    background-color: #ebfffc; /* Sets the background color of the input field */
+    font-size: 18px; /* Sets the font size of the input text */
+}
+
+/* Styles for the search icon inside the search bar */
+.search-bar img {
+    width: 50px; /* Sets the size of the icon */
+    padding: 15px; /* Adds padding around the icon */
+    border-radius: 50%; /* Makes the icon circular */
+    background-color: #ebfffc; /* Sets the background color of the icon */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+}
+
+/* Styles for the main weather icon (e.g., clear, cloudy, etc.) */
+.weather-icon {
+    width: 150px; /* Sets the size of the weather icon */
+    margin: 30px 0; /* Adds vertical margin around the icon */
+}
+
+/* Styles for the temperature display */
+.temperature {
+    color: white; /* Sets the text color to white */
+    font-size: 80px; /* Sets the font size of the temperature */
+    line-height: 1; /* Reduces the line height for tighter spacing */
+}
+
+/* Styles for the location display */
+.location {
+    color: white; /* Sets the text color to white */
+    font-size: 40px; /* Sets the font size of the location text */
+}
+
+/* Container for additional weather data (e.g., humidity, wind speed) */
+.weather-data {
+    width: 100%; /* Sets the width to full */
+    margin-top: 40px; /* Adds top margin to create space above the data */
+    color: white; /* Sets the text color to white */
+    display: flex; /* Enables flexbox layout for the weather data */
+    justify-content: space-between; /* Distributes the weather data columns evenly */
+}
+
+/* Styles for each column within the weather data section */
+.weather-data .col {
+    display: flex; /* Enables flexbox layout for the column */
+    flex-direction: column; /* Aligns items vertically */
+    align-items: flex-start; /* Aligns items to the left */
+    gap: 8px; /* Adds space between the items */
+    font-size: 22px; /* Sets the font size for the data */
+}
+
+/* Styles for each row within the columns */
+.weather-data .col .row {
+    display: flex; /* Enables flexbox layout for the row */
+    align-items: center; /* Aligns items vertically centered */
+    gap: 8px; /* Adds space between the icon and the data */
+}
+
+/* Styles for the icons in the weather data columns */
+.weather-data .col img {
+    width: 26px; /* Sets the size of the weather data icons */
+}
+
+/* Styles for the labels under the weather data (e.g., Humidity, Wind Speed) */
+.weather-data .col span {
+    font-size: 16px; /* Sets the font size for the labels */
+    margin-left: 34px; /* Aligns the label text under the corresponding data */
+}

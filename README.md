@@ -1,2 +1,8 @@
-# WeatherLens---Real-time-Weather-Tracking-App
-WeatherLens provides up-to-date weather information, including current conditions, forecasts, and severe weather alerts. With an intuitive interface, users can easily search for weather data by location, view interactive maps, and receive personalized weather updates. Perfect for staying informed about the weather anywhere, anytime.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
