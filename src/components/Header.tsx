@@ -11,7 +11,7 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link to={"/"}>
           <img
-            src={theme === "dark" ? "/light-logo.png" : "/dark-logo.png"}
+            src={theme === "dark" ? "/light.png" : "/dark-logo.png"}
             alt="Klimate logo"
             className="h-14 hover:scale-105 transition-all duration-500"
           />
